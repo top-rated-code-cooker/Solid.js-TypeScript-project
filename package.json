@@ -1,0 +1,50 @@
+{
+  "name": "solid-js-table",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack serve --open --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "Zedaan Rumi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/node": "^14.14.37",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^3.11.3",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.2.13",
+    "postcss-loader": "^5.2.0",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.1.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@types/d3": "^6.3.0",
+    "babel-preset-solid": "^0.25.0",
+    "d3": "^6.6.2",
+    "postcss-preset-env": "^6.7.0",
+    "solid-js": "^0.25.0",
+    "solid-styled-components": "^0.25.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zedaan/solid-js-table.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zedaan/solid-js-table/issues"
+  },
+  "homepage": "https://github.com/zedaan/solid-js-table#readme"
+}
